@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-content">
+                <img src="./images/logo.png" width="100" height="25" alt="">
+                <nav class="menu">
+                    <ul>
+                        <li>
+                            <a class="is-active" href="#main">Hola</a>
+                        </li>
+                        <li>
+                            <a href="#project">Proyecto</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Curriculum</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="button">Curriculum</button>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper">
+        
+
+        <section class="hero" id="main">
+            <div class="hero-image">
+                <img src="./images/jaume.png" width="338" height="330" alt="">
+            </div>
+            <div class="hero-description">
+                <h1>
+                    <span>!Hola a Todos!</span>
+                    <span>Soy Leonardo</span>
+                </h1>
+                <p>
+                    Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.
+                </p>
+                <div class="social">
+                    <a class="button-icon" href="tel: 3103043323"><img src="./icons/icon-phone.svg" alt=""></a>
+                    <a class="button-icon" href="tel: 3103043323"><img src="./icons/icon-important_mail.svg" alt=""></a>
+                    <a class="button-icon" href="tel: 3103043323"><img src="./icons/icon-instagram.svg" alt=""></a>
+                    <a class="button-icon" href="tel: 3103043323"><img src="./icons/icon-twitter_squared.svg"
+                            alt=""></a>
+                </div>
+                <a href="https://google.com" class="button">Descargar Curriculum</a>
+            </div>
+        </section>
+        <section class="about">
+            <span>A lo largo de mi carrera como Frontend,
+                he tenido el privilegio de trabajar en proyectos retadores e increíbles
+            </span>
+            <div class="about-description">
+                <p>Aquí hay algunos que me gustaría compartir.</p>
+            </div>
+            <a href="#"><img src="./images/arrow-down.svg" alt=""></a>
+        </section>
+
+        <div class="testimony" id="project">
+            <div class="testimony-image">
+                <img src="./images/mac.svg" alt="">
+            </div>
+            <div class="testimony-description">
+                <a class="tittle" href="https://google.com">Google</a>
+                <p>Accede a más de 120 proyectos que te ayudarán a mejorar
+                    tus habilidades como desarrollador Front-End.
+                </p>
+                <a target="_blank" href="https://leosagit.github.io/Video-player/" class="button is-secondary">Ver
+                    Código</a>
+                <a target="_blank" href="https://leosagit.github.io/Video-player/" class="button">Ver Proyecto</a>
+            </div>
+        </div>
+
+        <div class="testimony">
+            <div class="testimony-image">
+                <img src="./images/iPad.svg" alt="">
+            </div>
+            <div class="testimony-description">
+                <a class="tittle" href="https://google.com">Google</a>
+                <p>Accede a más de 120 proyectos que te ayudarán a mejorar
+                    tus habilidades como desarrollador Front-End.
+                </p>
+                <a target="_blank" href="https://leosagit.github.io/Video-player/" class="button is-secondary">Ver
+                    Código</a>
+                <a target="_blank" href="https://leosagit.github.io/Video-player/" class="button">Ver Proyecto</a>
+            </div>
+        </div>
+
+        <div class="testimony">
+            <div class="testimony-image">
+                <img src="./images/iphone.svg" alt="">
+            </div>
+            <div class="testimony-description">
+                <a class="tittle" href="https://google.com">Google</a>
+                <p>Accede a más de 120 proyectos que te ayudarán a mejorar
+                    tus habilidades como desarrollador Front-End.
+                </p>
+                <a target="_blank" href="https://leosagit.github.io/Video-player/" class="button is-secondary">Ver
+                    Código</a>
+                <a target="_blank" href="https://leosagit.github.io/Video-player/" class="button">Ver Proyecto</a>
+            </div>
+        </div>
+
+        <section class="card">
+            <div class="card-content">
+                <div class="quote-img">
+                    <img src="./images/user.svg" width="64" height="64" alt="">
+                </div>
+                <h4>
+                    <p>"Denilson ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera
+                        llevado 6 meses solo les llevó 1,5 meses ". </p>
+                </h4>
+                <h5>
+                    <p>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</p>
+                </h5>
+            </div>
+        </section>
+        <form action="" method="POST" class="form">
+            <h2 class="tittle">Hablemos</h2>
+            <p>
+                Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto conmigo.
+            </p>
+            <label for="form-name">
+                Nombre Completo
+                <input required name="name" id="form-name" type="text" placeholder="Juan">
+            </label>
+            <label for="form-name">
+                Correo Electrónico
+                <input required name="email" id="form-name" type="email" placeholder="Juan">
+            </label>
+            <label for="form-name">
+                Mensaje
+                <textarea required name="message" placeholder="Mensaje" id="form-message" cols="30" rows="7"></textarea>
+            </label>
+            <button class="button" type="submit">Enviar Mensaje</button>
+        </form>
+        <footer class="footer" id="contact">
+            <div class="footer-logo">
+                <img src="./images/logo.png" width="100" height="25" alt="">
+            </div>
+            <div class="social">
+                <a class="button-icon" href="tel: 3103043323"><img src="./icons/icon-phone.svg" alt=""></a>
+                <a class="button-icon" href="tel: 3103043323"><img src="./icons/icon-important_mail.svg" alt=""></a>
+                <a class="button-icon" href="tel: 3103043323"><img src="./icons/icon-instagram.svg" alt=""></a>
+                <a class="button-icon" href="tel: 3103043323"><img src="./icons/icon-twitter_squared.svg" alt=""></a>
+            </div>
+            <div class="footer-copyrigth">
+                <p>
+                    Hecho con el 💻 por Leo
+                </p>
+                <p>
+                    Copyright 2021 - Todos los derechos reservados.
+                </p>
+            </div>
+        </footer>
+    </div>
+    
+
+
+
+</body>
+
+</html>
