@@ -1,0 +1,21 @@
+.card{
+    /* border: 1px solid red; */
+    background: linear-gradient(rgba(255,255,255,.75), rgba(255,255,255,0));
+    border-radius: 1.5rem;
+    overflow: hidden;
+    padding: .25rem;
+    margin: 0;
+    margin-block-start: 2.5rem;
+    margin-block-end: 2.5rem;
+    max-inline-size: 100%;
+}
+
+.card-content{
+    text-align:  center;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    max-inline-size: 100%;
+}

@@ -1,0 +1,25 @@
+.about{
+    font: var(--headline5) ;
+    /* border: 1px solid red; */
+    text-align: center;
+    /* display: flex; */
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    padding-block-start: 100px;
+    padding-block-end: 150px;
+    padding-inline-start: 233px;
+    padding-inline-end: 233px;
+    max-inline-size: 100%;
+    align-items: center;
+    gap: 16px;
+
+}
+.about-description{
+    font: var(--headline4) ;
+    /* border: 13px solid red; */
+    text-align: center;
+    /* displaykc: flexkc; */
+    max-inline-size: 100%;
+
+
+}
